@@ -1,6 +1,7 @@
 sodu: required
 services:
   - docker
+cache: yarn
 
 before_install:
   - docker build -t nguyentuanbk92/docker-react -f Dockerfile.dev .
